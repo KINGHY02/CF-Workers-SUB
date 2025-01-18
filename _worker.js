@@ -624,20 +624,68 @@ async function KV(request, env, txt = 'ADD.txt') {
 					</div>
 					<br>
 					################################################################<br>
-     # Welcome to Kingzy!
-
-国王云官网：[www.kingzy.us.kg](http://www.kingzy.us.kg)  
-客服QQ：3148213528  
-
-💫 **King 欢迎您！**  
-
-无论您是寻找稳定、高效的云服务，还是需要专业的技术支持，Kingzy 都是您的最佳选择！我们致力于提供卓越的服务和无与伦比的体验。快来加入我们，一起探索无限可能！✨
-
-> **联系我们：**  
-> - 官网：[www.kingzy.us.kg](http://www.kingzy.us.kg)  
-> - 客服QQ：3148213528  
->  
-> **King，一切从心开始！**  
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingzy Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px 40px;
+            max-width: 400px;
+        }
+        h1 {
+            color: #0078d7;
+        }
+        a {
+            color: #0078d7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0078d7;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #0053a6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Kingzy!</h1>
+        <p>国王云官网：<a href="http://www.kingzy.us.kg" target="_blank">www.kingzy.us.kg</a></p>
+        <p>客服QQ：3148213528</p>
+        <p>💫 <strong>King 欢迎您！</strong></p>
+        <a href="http://www.kingzy.us.kg" class="button" target="_blank">访问官网</a>
+    </div>
+</body>
+</html>
 					<br><br>UA: <strong>${request.headers.get('User-Agent')}</strong>
 					<script>
 					function copyToClipboard(text, qrcode) {
