@@ -624,7 +624,20 @@ async function KV(request, env, txt = 'ADD.txt') {
 					</div>
 					<br>
 					################################################################<br>
-					
+     # Welcome to Kingzy!
+
+国王云官网：[www.kingzy.us.kg](http://www.kingzy.us.kg)  
+客服QQ：3148213528  
+
+💫 **King 欢迎您！**  
+
+无论您是寻找稳定、高效的云服务，还是需要专业的技术支持，Kingzy 都是您的最佳选择！我们致力于提供卓越的服务和无与伦比的体验。快来加入我们，一起探索无限可能！✨
+
+> **联系我们：**  
+> - 官网：[www.kingzy.us.kg](http://www.kingzy.us.kg)  
+> - 客服QQ：3148213528  
+>  
+> **King，一切从心开始！**  
 					<br><br>UA: <strong>${request.headers.get('User-Agent')}</strong>
 					<script>
 					function copyToClipboard(text, qrcode) {
