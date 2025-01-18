@@ -624,7 +624,7 @@ async function KV(request, env, txt = 'ADD.txt') {
 					</div>
 					<br>
 					################################################################<br>
-     <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -633,17 +633,16 @@ async function KV(request, env, txt = 'ADD.txt') {
 </head>
 <body>
     <pre>
-        ****************************
         欢迎访问 Kingzy 国王云！
 
-        官网地址：www.kingzy.us.kg
-        客服QQ：3148213528
+        官网地址：<a href="http://www.kingzy.us.kg" target="_blank">www.kingzy.us.kg</a>
+        客服QQ：<a href="https://qm.qq.com/q/HPUZWGzOqy" target="_blank">点此联系 QQ 客服</a>
 
         King 欢迎您的光临！
-        ****************************
     </pre>
 </body>
 </html>
+
 
 					<br><br>UA: <strong>${request.headers.get('User-Agent')}</strong>
 					<script>
