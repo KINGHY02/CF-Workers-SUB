@@ -677,10 +677,10 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 </head>
 <body>
     <pre>
-        欢迎访问 Kingzy 国王云！
+        欢迎访问 KingCloud 国王云！
 
-        官网地址：<a href="http://www.kingzy.us.kg" target="_blank">kingvpn.010213.xyz</a>
-        客服QQ：<a href="https://qm.qq.com/q/3YXn1Eu6Cs" target="_blank">点此联系 QQ 客服</a>
+        官网地址：<a href="http://kingvpn.010213.xyz" target="_blank">kingvpn.010213.xyz</a>
+        客服QQ：<a href="https://baidu.com" target="_blank"> QQ 客服</a>
 
         King 欢迎您的光临！
     </pre>
