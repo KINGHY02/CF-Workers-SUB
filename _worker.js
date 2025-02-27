@@ -260,7 +260,7 @@ async function nginx() {
 	<p>For online documentation and support please refer to
 	<a href="http://vpn.kinghy.rr.nu/">国王云</a>.<br/>
 	Commercial support is available at
-	<a href="https://qm.qq.com/q/YNgQ4NmxEG">客服QQ</a>.</p>
+	<a href="https://qm.qq.com/q/5yRQsCq9JS">客服QQ</a>.</p>
 	
 	<p><em>Thank you for using nginx.</em></p>
 	</body>
@@ -680,7 +680,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
         欢迎访问 KingCloud 国王云！
 
         官网地址：<a href="http://kingvpn.010213.xyz" target="_blank">kingvpn.010213.xyz</a>
-        客服QQ：<a href="https://qm.qq.com/q/YNgQ4NmxEG" target="_blank"> QQ 客服</a>
+        客服QQ：<a href="https://qm.qq.com/q/5yRQsCq9JS" target="_blank"> QQ 客服</a>
 
         King 欢迎您的光临！
     </pre>
