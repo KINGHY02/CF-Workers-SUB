@@ -8,7 +8,7 @@ let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = '国王云';
 let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
-let total = 99;//TB
+let total = 999;//TB
 let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
@@ -253,16 +253,13 @@ async function nginx() {
 	</style>
 	</head>
 	<body>
-	<h1>Welcome to KingCloud!</h1>
-	<p>If you see this page, the KingCloud web server is successfully installed and
-	working. Further configuration is required.</p>
+	<h1>欢迎访问国王云永久机场</h1>
+	<p>如果你是第一次访问该页面，可以点击下方链接，了解如何翻墙，或添加客服QQ购买永久套餐</p>
 	
-	<p>For online documentation and support please refer to
-	<a href="http://vpn.kinghy.rr.nu/">国王云</a>.<br/>
-	Commercial support is available at
-	<a href="https://qm.qq.com/q/5yRQsCq9JS">客服QQ</a>.</p>
+	<p><a href="https://boke.010213.xyz/">前往国王云</a>.<br/>
+	<a href="https://qm.qq.com/q/5yRQsCq9JS">添加客服QQ</a>.</p>
 	
-	<p><em>Thank you for using nginx.</em></p>
+	<p><em>Thank you for using KiNG Cloud.</em></p>
 	</body>
 	</html>
 	`
