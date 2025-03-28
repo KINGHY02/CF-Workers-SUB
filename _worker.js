@@ -240,28 +240,74 @@ async function ADD(envadd) {
 
 async function nginx() {
 	const text = `
-	<!DOCTYPE html>
-	<html>
-	<head>
-	<title>Welcome to KingCloud!</title>
-	<style>
-		body {
-			width: 35em;
-			margin: 0 auto;
-			font-family: Tahoma, Verdana, Arial, sans-serif;
-		}
-	</style>
-	</head>
-	<body>
-	<h1>欢迎访问国王云永久机场</h1>
-	<p>如果你是第一次访问该页面，可以点击下方链接，了解如何翻墙，或添加客服QQ购买永久套餐</p>
-	
-	<p><a href="https://boke.010213.xyz/">前往国王云</a>.<br/>
-	<a href="https://qm.qq.com/q/5yRQsCq9JS">添加客服QQ</a>.</p>
-	
-	<p><em>Thank you for using KiNG Cloud.</em></p>
-	</body>
-	</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到国王云！</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffee, #2a60ff, #7a00ff, #ff00ea);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            width: 80%;
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        h1 {
+            font-size: 28px;
+            color: #ffcc00;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(45deg, #ff66b2, #ff3399);
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(255, 102, 178, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(255, 102, 178, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到国王云永久机场！</h1>
+        <p>轻松访问全球网络！如果你是第一次访问，请查看下方链接，了解如何科学上网，或者联系客服购买套餐。</p>
+        <a href="https://boke.010213.xyz/" class="btn">前往国王云</a>
+        <a href="https://qm.qq.com/q/5yRQsCq9JS" class="btn">添加客服QQ</a>
+        <p><em>感谢使用 KiNG Cloud，愿你的网络旅程畅通无阻！</em></p>
+    </div>
+</body>
+</html>
 	`
 	return text;
 }
@@ -676,7 +722,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
     <pre>
         欢迎访问 KingCloud 国王云！
 
-        官网地址：<a href="http://kingvpn.010213.xyz" target="_blank">kingvpn.010213.xyz</a>
+        博客地址：<a href="http://boke.010213.xyz" target="_blank">boke.010213.xyz</a>
         客服QQ：<a href="https://qm.qq.com/q/5yRQsCq9JS" target="_blank"> QQ 客服</a>
 
         King 欢迎您的光临！
