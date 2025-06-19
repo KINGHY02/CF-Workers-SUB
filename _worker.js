@@ -6,7 +6,7 @@ let guestToken = ''; //可以随便取，或者uuid生成，https://1024tools.co
 let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
-let FileName = 'CF-Workers-SUB';
+let FileName = '国王云';
 let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 let total = 99;//TB
 let timestamp = 4102329600000;//2099-12-31
@@ -240,31 +240,73 @@ async function ADD(envadd) {
 
 async function nginx() {
 	const text = `
-	<!DOCTYPE html>
-	<html>
-	<head>
-	<title>Welcome to nginx!</title>
-	<style>
-		body {
-			width: 35em;
-			margin: 0 auto;
-			font-family: Tahoma, Verdana, Arial, sans-serif;
-		}
-	</style>
-	</head>
-	<body>
-	<h1>Welcome to nginx!</h1>
-	<p>If you see this page, the nginx web server is successfully installed and
-	working. Further configuration is required.</p>
-	
-	<p>For online documentation and support please refer to
-	<a href="http://nginx.org/">nginx.org</a>.<br/>
-	Commercial support is available at
-	<a href="http://nginx.com/">nginx.com</a>.</p>
-	
-	<p><em>Thank you for using nginx.</em></p>
-	</body>
-	</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到国王云！</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffee, #2a60ff, #7a00ff, #ff00ea);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            width: 80%;
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        h1 {
+            font-size: 28px;
+            color: #ffcc00;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(45deg, #ff66b2, #ff3399);
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(255, 102, 178, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(255, 102, 178, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到KiNG的博客！</h1>
+        <p>轻松访问全球网络！如果你是第一次访问，请查看下方链接，了解如何科学上网，买节点的方式有很多，购买到的节点，均可用教程里的软件进行上网，自行挑选。</p>
+        <a href="https://boke.010213.xyz/" class="btn">前往KiNG的博客网站</a>
+        <p><em>感谢访问 KiNG 的博客，愿你的网络旅程畅通无阻！</em></p>
+    </div>
+</body>
+</html>
 	`
 	return text;
 }
