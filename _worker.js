@@ -234,7 +234,7 @@ async function nginx() {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KiNG 云 · 网络自由入口</title>
+<title>KiNG博客入口</title>
 <style>
   body {
     margin:0;
@@ -1041,4 +1041,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 		});
 	}
 }
+
 
