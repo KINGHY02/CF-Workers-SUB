@@ -236,12 +236,15 @@ async function ADD(envadd) {
 async function nginx() {
 	const text = `
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KiNG Blog - 国王云</title>
 <link rel="icon" href="https://boke.010213.xyz/favicon.ico">
+<link rel="shortcut icon" href="https://boke.010213.xyz/favicon.ico">
+<link rel="apple-touch-icon" href="https://boke.010213.xyz/favicon.ico">
+<link rel="canonical" href="https://boke.010213.xyz/">
 <meta name="description" content="提供科学上网教程、Clash下载、翻墙软件、VPN节点与网络代理教程。">
 <meta name="keywords" content="科学上网,翻墙,VPN,Clash,TikTok,代理节点">
 <meta name="author" content="KiNG">
