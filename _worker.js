@@ -241,6 +241,7 @@ async function nginx() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KiNG Blog - 国王云</title>
+<link rel="icon" href="https://boke.010213.xyz/favicon.ico">
 <style>
   body {
     margin:0;
