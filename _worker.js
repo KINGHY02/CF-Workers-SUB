@@ -238,22 +238,33 @@ async function nginx() {
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KiNG Blog - 国王云</title>
-<link rel="icon" href="https://boke.010213.xyz/favicon.ico">
-<link rel="shortcut icon" href="https://boke.010213.xyz/favicon.ico">
-<link rel="apple-touch-icon" href="https://boke.010213.xyz/favicon.ico">
-<link rel="canonical" href="https://boke.010213.xyz/">
-<meta name="description" content="提供科学上网教程、Clash下载、翻墙软件、VPN节点与网络代理教程。">
-<meta name="keywords" content="科学上网,翻墙,VPN,Clash,TikTok,代理节点">
-<meta name="author" content="KiNG">
-<meta name="robots" content="index,follow">
-<meta property="og:title" content="KiNG Blog - 国王云">
-<meta property="og:description" content="科学上网教程与代理工具分享">
-<meta property="og:image" content="https://img.771169.xyz/img/2025/touxiang.jpg">
-<meta property="og:url" content="https://boke.010213.xyz">
-<meta name="theme-color" content="#00ffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "国王云",
+      "alternateName": ["KiNG Blog", "国王云博客"],
+      "url": "https://boke.010213.xyz/"
+    }
+    </script>
+
+    <title>国王云-KiNG Blog</title>
+    
+    <meta property="og:site_name" content="国王云">
+    
+    <link rel="icon" href="https://boke.010213.xyz/favicon.ico">
+    <link rel="canonical" href="https://boke.010213.xyz/">
+    
+    <meta name="description" content="提供科学上网教程、Clash下载、翻墙软件、VPN节点与网络代理教程。">
+    <meta name="keywords" content="科学上网,翻墙,VPN,Clash,TikTok,代理节点">
+    <meta property="og:title" content="KiNG Blog - 国王云">
+    <meta property="og:description" content="科学上网教程与代理工具分享">
+    <meta property="og:image" content="https://img.771169.xyz/img/2025/touxiang.jpg">
+    <meta property="og:url" content="https://boke.010213.xyz/">
+    </head>
 <style>
   body {
     margin:0;
