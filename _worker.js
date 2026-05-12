@@ -255,7 +255,7 @@ async function nginx() {
     
     <meta property="og:site_name" content="国王云">
     
-    <link rel="icon" href="https://boke.010213.xyz/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://img.010213.xyz/favicon-96x96.png">
     <link rel="canonical" href="https://boke.010213.xyz/">
     
     <meta name="description" content="提供科学上网教程、Clash下载、翻墙软件、VPN节点与网络代理教程。">
